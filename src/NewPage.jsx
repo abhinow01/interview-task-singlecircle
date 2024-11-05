@@ -12,7 +12,6 @@ const NewPage = () => {
             className="min-h-[100vh] h-full w-full bg-gray-400 relative" 
             onClick={(event) => renderCircle(event.clientX, event.clientY)}
         >
-            hello 
             {circlePosition && (
                 <div 
                     className="bg-red-500 w-8 h-8 rounded-full absolute" 
